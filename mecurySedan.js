@@ -1,6 +1,3 @@
-/* Imported Vehicle class from vehicle.js file. Got "SyntaxError: Cannot use import statement outside a module", 
-so had to initialize a package.json file with "npm init -y" command and added "type": "module" on line 2. Also, 
-changed export instructions in vehicle.js to "export {Vehicle}" (line 82) */
 import { Vehicle } from "./vehicle.js";
 
 // Created a Car class that extends the Vehicle class.
